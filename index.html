@@ -1,82 +1,327 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Perspective Mockup Slideshow | Demo 1</title>
-		<meta name="description" content="A perspective slideshow based on Franklin Ta's CSS matrix3d transforms" />
-		<meta name="keywords" content="perspective, mockup, slideshow, transform, 3d, matrix, css" />
-		<meta name="author" content="Codrops" />
+		<title>:: OPENFACT::</title>
+        <!-- meta -->
+		<meta name="description" content="Facutración electrónica" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+        <!-- favicon -->
 		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- css -->
+		<link rel="stylesheet" type="text/css"href="css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/mockup1.css" />
-		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/mockup4.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"  />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- js -->
+		<script type="text/javascript" src="js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.js"></script>
+        <script type="text/javascript" src="js/wow.js"></script>
+        <script type="text/javascript" src="js/classie.js"></script>
+        <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
+		
+		
+		
 	</head>
-	<body class="demo-1">
-		<div class="container">
-			<!-- Top Navigation -->
-			<div class="codrops-top clearfix">
-				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/DragDropInteractions/"><span>Previous Demo</span></a>
-				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=21345"><span>Back to the Codrops Article</span></a></span>
-			</div>
+	<body class="demo-4">
+
+        <!--main-nav-start-->
+        <nav class="main-nav-outer" id="test">
+            <div class="container">
+                <ul class="main-nav">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li class="small-logo"><a href="#header"><img src="img/LogoOF.png" alt="" width="55"></a></li>
+                    <li><a href="#client">Clients</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav><!-- ./main-nav-end-->
+	
+		
+		
+			
+			
+			
+        
+        
+        
 			<div id="wrap" class="wrap">
 				<div class="mockup">
-					<img class="mockup__img" src="img/mockup.jpg" />
-					<div id="mobile" class="mobile">
-						<ul id="slideshow" class="slideshow">
-							<li class="slideshow__item"><img src="img/small/1.png" /></li>
-							<li class="slideshow__item"><img src="img/small/2.png" /></li>
-							<li class="slideshow__item"><img src="img/small/3.png" /></li>
-							<li class="slideshow__item"><img src="img/small/4.png" /></li>
+					<img class="mockup__img" src="img/mockup4.jpg" />
+					<div class="mobile">
+						<ul id="slideshow-1" class="slideshow">
+							<li class="slideshow__item"><img src="img/small/1.png"/></li>
+							<li class="slideshow__item"><img src="img/small/2.png"/></li>
+							<li class="slideshow__item"><img src="img/small/3.png"/></li>
+							<li class="slideshow__item"><img src="img/small/4.png"/></li>
+						</ul>
+					</div>
+					<div class="screen">
+						<ul id="slideshow-2" class="slideshow">
+							<li class="slideshow__item current"><img src="https://docs.microsoft.com/en-us/power-bi/media/service-dashboards/power-bi-dashboard2.png"/></li>
+							<li class="slideshow__item"><img src="https://www.patternfly.org/pattern-library/communication/notification-drawer/img/PF-ND-05.png"/></li>
+							<li class="slideshow__item"><img src="http://www.patternfly.org/assets/img/layouts-dashboard.png"/></li>
+							<li class="slideshow__item"><img src="http://www.patternfly.org/assets/img/Patternfly_ToastNotificationTray_Hover-slide.jpg"/></li>
 						</ul>
 					</div>
 					<header class="codrops-header">
-						<h1><span>Mockup</span> Slideshow <i>An animated perspective mockup with 3D transforms computed with <a href="http://franklinta.com/2014/09/08/computing-css-matrix3d-transforms/">Franklin Ta's helper script</a></i></h1>
+						<h1> <img src="img/LogoOF.png" alt="" width="100"><br><u style="color:#8b0000;text-decoration: none">Open</u><u style="text-decoration: none;">Fact+</u> <span>Facturación Electrónica</span><button style="margin-top: 20px;background-color: transparent;color:white;border: 2px solid white;font-size:0.5em;padding: 20px;">Comenzar Ahora</button></h1>
+						
 					</header>
 				</div>
 			</div>
-			<div class="content">
-				<nav class="codrops-demos">
-					<a class="current-demo" href="index.html">Demo 1</a>
-					<a href="index2.html">Demo 2</a>
-					<a href="index3.html">Demo 3</a>
-					<a href="index4.html">Demo 4</a>
-				</nav>
-				<p><strong>Free Mockup images from:</strong></p>
-				<ul class="ref">
-					<li><strong>Demo 1 and 3:</strong> <a href="https://www.behance.net/gallery/19352531/Free-PSD-mockup-vol-2">Free PSD Mockups Vol.2</a></li>
-					<li><strong>Demo 4:</strong> <a href="http://pixelbuddha.net/freebie/morning-device-mockups">Morning Device Mockups</a></li>
-				</ul>
-				<ul class="ref">
-					<li><strong>Demo 2</strong> image copyright by Vadim Sherbakov with granted permission to be used in this demo</li> 
-					<li><a href="https://creativemarket.com/Vadim.Sherbakov/50038-6-Macbook-In-the-house-mock-ups">6 MacBook in the house mockups</a></li>
-					<li><a href="http://madebyvadim.robot.co/">Made by Vadim</a></li>
-					<li><a href="https://creativemarket.com/Vadim.Sherbakov"> Vadim Sherbakov's Creative Market Shop</a></li>
-				</ul>
-				<ul class="ref">
-					<li><strong><a href="http://pixelbuddha.net/freebie/280-line-icons-pack">Line Icons</a></strong> by Jonas Nullens for PixelBuddha</li>
-				</ul>
-			</div>
-			<!-- Related demos -->
-			<section class="related">
-				<p>If you enjoyed this demo you might also like</p>
-				<a href="http://tympanus.net/Tutorials/TiltedContentSlideshow/">
-					<img src="img/related/TiltedContentSlideshow.jpg" />
-					<h3>Tilted Content Slideshow</h3>
-				</a>
-				<a href="http://tympanus.net/codrops/2013/08/01/3d-effect-for-mobile-app-showcase/">
-					<img src="img/related/AppShowcase.jpg" />
-					<h3>3D App Showcase</h3>
-				</a>
-			</section>
-		</div><!-- /container -->
+			
+			
+	
+		
+		
+		
+		
+		
+				
+			
+
+<section class="main-section" id="service"><!--main-section-start-->
+	<div class="container">
+    	<h2>SERVICIOS de openfact+</h2>
+    	<h6>Ofrecemos el servicio de emisión de comprobantes electrónicos y recopilación de comprobantes electrónicos de tus compras y ventas de manera automática.</h6>
+        <div class="row">
+        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+            	<div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-paw"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>EMISIóN DE FACTURAS</h3>
+                        <p>Cantidad de comprobantes electrónicos ILIMITADOS.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-gear"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>NOTIFICACIóN</h3>
+                        <p>Envio de facturación por correos electrónicos.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-apple"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>diseño adaptable</h3>
+                        <p>Diseño adaptable a cualquier dispositivo electronico.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-medkit"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Soporte 24/7</h3>
+                        <p>Soporte de personal especializado.</p>
+                    </div>
+                </div>
+            </div>
+            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+            	<img src="img/macbook-pro.png" alt="">
+            </figure>
+        
+        </div>
+	</div>
+</section><!--main-section-end-->
+
+        
+        <section class="main-section alabaster"><!--main-section alabaster-start-->
+	<div class="container">
+    	<div class="row">
+			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+            	<img  src="img/iphone.png" alt="">
+            </figure>
+        	<div class="col-lg-7 col-sm-8 featured-work">
+            	<h2>Ventajas del OpenFact+</h2>
+            	<P class="padding-b">OpenFact+ es una plataforma que permite a los clientes crear, administrar, almacenar y analizar comprobantes electrónicos de manera fácil, rápida y segura.
+					
+					</P>
+            	<div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-02s">
+                    	<i class="fa-magic"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-02s">
+                        <h3>Es gratis</h3>
+                        <p>OpenFact ofrece una plataforma gratuita para la emision de comprobantes electronicos mediante una interfaz amigable. </p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-04s">
+                    	<i class="fa-gift"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-04s">
+                        <h3>Múltiples Comprobantes Electrónicos</h3>
+                        <p>OpenFact ofrece la emision de facturas, boletas de venta, notas de crédito, notas de debito y resumenes diarios de boletas. </p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                	<div class="featured-box-col1 wow fadeInRight delay-06s">
+                    	<i class="fa-dashboard"></i>
+                    </div>	
+                	<div class="featured-box-col2 wow fadeInRight delay-06s">
+                        <h3>OpenFact+</h3>
+                        <p>Ofrece la recopilacion de comprobantes electronicos de compras y ventas de manera automática. Recolectamos todos los comprobantes electronicos emitidos a tu RUC y/o DNI. </p>
+                    </div>    
+                </div>
+                <a class="Learn-More" href="#">Learn More</a>
+            </div>
+        </div>
+	</div>
+</section><!--main-section alabaster-end-->
+
+       
+<section class="business-talking"><!--business-talking-start-->
+	<div class="container">
+        <h2>Hablemos de negocios.</h2>
+    </div>
+
+</section><!--business-talking-end-->			
+
+       
+       
+<div class="container">
+<section class="main-section contact" id="contact">
+	
+        <div class="row">
+        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+            	<div class="contact-info-box address clearfix">
+                	<h3><i class=" icon-map-marker"></i>Direccion:</h3>
+                	<span><a target="_blank" href="http://openfactplus.ddns.me">openfactplus</a></span>
+                </div>
+                <div class="contact-info-box phone clearfix">
+                	<h3><i class="fa-phone"></i>Teléfono:</h3>
+                	<span>(054)967245162</span> <span>(054)967245162</span>
+                </div>
+                <div class="contact-info-box email clearfix">
+                	<h3><i class="fa-pencil"></i>email:</h3>
+                	<span>sistemas@ahrensac.com</span> <span>ahrendata@gmail.com</span>
+                </div>
+            	<div class="contact-info-box hours clearfix">
+                	<h3><i class="fa-clock-o"></i>Horario:</h3>
+                	<span><strong>Lunes - Viernes:</strong> 08am - 6pm<br><strong>Sábado:</strong> 08am - 01pm</span>
+                </div>
+<!--
+                <ul class="social-link">
+                	<li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
+                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
+                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
+                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>
+                </ul>
+-->
+            </div>
+        	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+            	<form class="form">
+                	<input class="input-text" type="text" name="" value="Tu nombre *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                    <input class="input-text" type="text" name="" value="Tu E-mail *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                	<textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Tu Mensaje *</textarea>
+<!--                    <div class="g-recaptcha" data-sitekey="6Le_B0UUAAAAALh58Nijo9BpMtbqWPHV4Q-rj1Fk"></div>-->
+                    <input class="input-btn" type="submit" value="Enviar Mensaje">
+                </form>	
+            </div>
+        </div>
+</section>
+</div>
+        
+        
+        
+        
+        
+        
+        
+        
+<footer class="footer">
+    <div class="container">
+        <div class="footer-logo"><a href="#"><img src="img/LogoOF-footer.png" alt=""></a></div>
+        <span class="copyright">Copyright © 2018 | <a href="http://bootstraptaste.com/">OpenFact</a> by AhrenData</span>
+    </div>
+    <!-- 
+        All links in the footer should remain intact. 
+        Licenseing information is available at: http://bootstraptaste.com/license/
+        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
+    -->
+</footer>
+			
+			
+			
+			
+			
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
+		
+		
+		<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+ 
+  </script>
+		
+		
+		
 		<script>
 			(function() {
-				new Slideshow( document.getElementById( 'slideshow' ) );
+				new Slideshow( document.getElementById( 'slideshow-1' ) );
+				setTimeout( function() {
+					new Slideshow( document.getElementById( 'slideshow-2' ) );
+				}, 1750 );
 
 				/* Mockup responsiveness */
 				var body = docElem = window.document.documentElement,
@@ -111,5 +356,41 @@
 				}
 			})();
 		</script>
+		
+		
+		
+		<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script>
+
+
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('.main-nav li a').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script>
+
 	</body>
 </html>

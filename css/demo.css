@@ -22,6 +22,10 @@
 
   }
 
+.of-color
+{
+	color:#EDE211 !important;
+}
 
 .open-fact
 {
@@ -30,10 +34,6 @@
 	text-decoration: none !important;
 
 }
-
-
-
-
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
@@ -101,11 +101,13 @@ a:hover, a:focus {
 
 .codrops-header h1 a {
 	color: #eff62b;
+	text-decoration: none;
 }
 
 .codrops-header h1 a:hover,
 .codrops-header h1 a:focus {
-	color: #fff;
+	color: #eff62b !important;
+	text-decoration: none;
 }
 
 .codrops-header h1 span::before,
@@ -250,7 +252,7 @@ ul.ref li {
 }
 
 @media screen and (max-width: 30em) {
-	.wrap {
+	/*.wrap {
 		height: 100vh !important;
 		background: #3d4955;
 	}
@@ -263,7 +265,7 @@ ul.ref li {
 	.codrops-header h1 i {
 		font-size: 42%;
 		max-width: 90%;
-	}
+	}*/
 	.codrops-icon {
 		font-size: 1.5em;
 	}
@@ -615,14 +617,15 @@ ul.ref li {
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#cc0000;
+	background:#EDE211 !important;
 	border-radius:4px;
-	color:#ffffff;
+	border:2px solid gold;
+	color:#000;
 	font-size:14px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
-	border:0px;
+
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -672,7 +675,7 @@ ul.ref li {
 
 .footer-logo img
 {
-    border-radius: 50px;
+    /*border-radius: 50px;*/
 }
 .copyright{
 	color:#cccccc;
@@ -681,7 +684,7 @@ ul.ref li {
 	text-align:center;
 }
 .copyright a{
-	color:#cc0000;
+	color:#EDE211 !important;
 	font-weight:600;
 	text-decoration: none;
 	transition:all 0.3s ease-in-out;

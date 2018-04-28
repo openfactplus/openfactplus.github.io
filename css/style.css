@@ -27,12 +27,10 @@
 	color:#EDE211 !important;
 }
 
-.open-fact
+.of-font
 {
 	font-family: 'Futura';
-	color:#EDE211 !important;
 	text-decoration: none !important;
-
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -99,16 +97,7 @@ a:hover, a:focus {
 	font-size: 80%;
 }
 
-.codrops-header h1 a {
-	color: #eff62b;
-	text-decoration: none;
-}
 
-.codrops-header h1 a:hover,
-.codrops-header h1 a:focus {
-	color: #eff62b !important;
-	text-decoration: none;
-}
 
 .codrops-header h1 span::before,
 .codrops-header h1 span::after {
@@ -124,6 +113,32 @@ a:hover, a:focus {
 	line-height: 2;
 	font-style: normal;
 	font-weight: 400;
+}
+
+.codrops-header .start-button
+{
+	background-color: transparent;
+	border: 2px solid white;
+	color:white;
+	font-size:0.5em;
+	margin-top: 20px;
+	padding: 20px;
+}
+.codrops-header .start-button:hover
+{
+	border: 2px solid goldenrod;
+	background-color: #eff62b;
+	
+}
+.codrops-header h1 a {
+	color: #eff62b;
+	text-decoration: none;
+}
+
+.codrops-header h1 a:hover,
+.codrops-header h1 a:focus {
+	color: #333 !important;
+	text-decoration: none;
 }
 
 /* To Navigation Style */
@@ -331,7 +346,7 @@ ul.ref li {
 .main-nav-outer{
 	padding:0px;
 	border-bottom: 1px solid #EDE211;
-    box-shadow: 0 4px 5px -3px #470000;
+    box-shadow: 0 4px 5px -3px goldenrod;
 	position:relative;
 	background:#fff;
     background-color: rgb(3, 3, 3);

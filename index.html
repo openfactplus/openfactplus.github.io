@@ -7,9 +7,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>:: OPENFACT::</title>
 	<!-- meta -->
-	<meta name="description" content="Facutración electrónica" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+	<meta name="description" content="OpenFact - Facutración electrónica" />
+	<meta name="keywords" content="OpenFact, Facturación, Electrónica, Facturación Electrónica,SUNAT, gratis, Fact" />
+	<meta name="author" content="CrazyMacer" />
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#ede211">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#ede211">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#ede211">
 	<!-- favicon -->
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- css -->
@@ -45,29 +51,30 @@
 
 <body id="inicio">
 
-	<!--main-nav-start-->
+	<!--main-menu-->
 	<nav class="main-nav-outer" id="test">
-
 		<div class="container">
-
 			<ul class="main-nav">
-
 				<li><a href="#inicio">Inicio</a></li>
 				<li><a href="#servicios">Servicios</a></li>
-				<li class="small-logo"><img src="img/LogoOF.png" alt="" width="55"></a></li>
+				<li class="small-logo"><a href="#inicio"><img src="img/OpenFact.png" alt="" width="50"></a></li>
 				<!--<li><a href="#client">Clientes</a></li>
 				<li><a href="#team">Equipo</a></li>-->
 				<li><a href="#ventajas">Ventajas</a></li>
 				<li><a href="#contact">Contacto</a></li>
 			</ul>
+			<!--mobile-menu-->
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
 		</div>
 	</nav>
-	<!-- ./main-nav-end-->
-
+	<!-- ./main-menu-->
+	
+	<!--slider-section-->
 	<div id="wrap" class="wrap">
 		<div class="mockup">
-			<img class="mockup__img" src="img/mockup4.jpg" />
+			<img class="mockup__img" src="img/background.jpg" />
+			
+			<!--mobile-slider-->
 			<div class="mobile">
 				<ul id="slideshow-1" class="slideshow">
 					<li class="slideshow__item">
@@ -83,40 +90,42 @@
 						<img src="img/small/4.png" />
 					</li>
 				</ul>
-			</div>
+			</div><!--./mobile-slider-->
+
+			<!--desktop-slider-->
 			<div class="screen">
 				<ul id="slideshow-2" class="slideshow">
 					<li class="slideshow__item current">
-						<img src="https://docs.microsoft.com/en-us/power-bi/media/service-dashboards/power-bi-dashboard2.png" />
+						<img src="img/slider/slider1.png" />
 					</li>
 					<li class="slideshow__item">
-						<img src="https://www.patternfly.org/pattern-library/communication/notification-drawer/img/PF-ND-05.png" />
+						<img src="img/slider/slider2.png" />
 					</li>
 					<li class="slideshow__item">
-						<img src="http://www.patternfly.org/assets/img/layouts-dashboard.png" />
+						<img src="img/slider/slider3.png" />
 					</li>
 					<li class="slideshow__item">
-						<img src="http://www.patternfly.org/assets/img/Patternfly_ToastNotificationTray_Hover-slide.jpg" />
+						<img src="img/slider/slider4.png" />
 					</li>
 				</ul>
-			</div>
+			</div><!--./desktop-slider-->
+			
+			<!--main-logo-->
 			<header class="codrops-header">
 				<h1>
-					<img src="img/LogoOF.png" alt="" style="min-width: 150px;">
+					<img src="img/OpenFact.png" alt="" style="min-width: 150px;">
 					<br>
-					<u class="open-fact">Open</u>
-					<u style="text-decoration: none;font-family: 'Futura'">Fact</u>
+					<u class="of-font of-color">Open</u>
+					<u class="of-font">Fact</u>
 					<span>Facturación Electrónica</span>
-					<a href="http://openfactplus.ddns.me" target="_blank" style="margin-top: 20px;background-color: transparent;color:white;border: 2px solid white;font-size:0.5em;padding: 20px;">Comenzar Ahora</a>
+					<a class="start-button" href="http://openfactplus.ddns.me" target="_blank" >Comenzar Ahora</a>
 				</h1>
+			</header><!--./main-logo-->
 
-			</header>
 		</div>
-	</div>
+	</div><!--./slider-section-->
 
-
-
-
+	<!--services-->
 	<section class="main-section" id="servicios">
 		<!--main-section-start-->
 		<div class="container">
@@ -165,13 +174,11 @@
 				<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
 					<img src="img/macbook-pro.png" alt="">
 				</figure>
-
 			</div>
 		</div>
-	</section>
-	<!--main-section-end-->
+	</section><!--./services-->
 
-
+	<!--adventages-->
 	<section class="main-section alabaster" id="ventajas">
 		<!--main-section alabaster-start-->
 		<div class="container">
@@ -220,20 +227,16 @@
 			</div>
 		</div>
 	</section>
-	<!--main-section alabaster-end-->
+	<!--./advantages-->
 
-
+	<!--contact-->
 	<section class="business-talking" id="contact">
 		<!--business-talking-start-->
 		<div class="container">
-			<h2>Hablemos de negocios.</h2>
+			<h2>Hablemos de negocios</h2>
 		</div>
-
 	</section>
-	<!--business-talking-end-->
-
-
-
+	
 	<div class="container">
 		<section class="main-section contact" >
 
@@ -266,11 +269,8 @@
 							<br>
 							<strong>Sábado:</strong> 08am - 01pm</span>
 					</div>
-					
-                
-
 				</div>
-				
+				<!--form-->
 				<!--
 				<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
 					<form class="form">
@@ -282,31 +282,20 @@
 						<div class="g-recaptcha" data-sitekey="6Le_B0UUAAAAALh58Nijo9BpMtbqWPHV4Q-rj1Fk"></div>
 						<input class="input-btn" type="submit" value="Enviar Mensaje">
 					</form>
-				</div>-->
-
-
-
+				</div>--><!--./form-->
 			</div>
 		</section>
-	</div>
-
-
-
-
-
-
-
+	</div><!--./contact-->
 
 	<footer class="footer">
 		<div class="container">
 			<div class="footer-logo">
 				<a href="#">
-					<img src="img/LogoOF.png" alt="" width="70">
+					<img src="img/OpenFact.png" alt="" width="70">
 				</a>
 			</div>
 			<span class="copyright">Copyright © 2018 |
 				<a href="#">OpenFact</a> by AhrenData
-
 				<!--<div style="width: 290px;margin: 0 auto;">
 					<ul class=" social-link text-center">
 						<li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
@@ -317,55 +306,11 @@
 					</ul>
 				</div>-->
 			</span>
-
-				
 		</div>
-		
-		<!-- 
-        All links in the footer should remain intact. 
-        Licenseing information is available at: http://bootstraptaste.com/license/
-        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
-    -->
 	</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
-
-
 	<script>
 		wow = new WOW(
 			{
@@ -374,11 +319,7 @@
 			}
 		);
 		wow.init();
-
 	</script>
-
-
-
 	<script>
 		(function () {
 			new Slideshow(document.getElementById('slideshow-1'));
@@ -419,9 +360,6 @@
 			}
 		})();
 	</script>
-
-
-
 	<script type="text/javascript">
 		$(document).ready(function (e) {
 			$('#test').scrollToFixed();
@@ -433,8 +371,6 @@
 
 		});
 	</script>
-
-
 	<script type="text/javascript">
 		$(window).load(function () {
 
@@ -444,17 +380,9 @@
 				$('html, body').stop().animate({
 					scrollTop: $($anchor.attr('href')).offset().top - 102
 				}, 1500, 'easeInOutExpo');
-				/*
-				if you don't want to use the easing effects:
-				$('html, body').stop().animate({
-					scrollTop: $($anchor.attr('href')).offset().top
-				}, 1000);
-				*/
 				event.preventDefault();
 			});
 		})
 	</script>
-
 </body>
-
 </html>

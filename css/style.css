@@ -1,37 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
-
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-}
-
-@font-face {
-	font-family: 'Futura';
-	src: url('FutuBd.ttf')  format('truetype') /* Safari, Android, iOS */
-
-  }
-  @font-face {
-	font-family: 'Univers';
-	src: url('Univers.ttf')  format('truetype') /* Safari, Android, iOS */
-
-  }
-
-.of-color
-{
-	color:#EDE211 !important;
-}
-
-.of-font
-{
-	font-family: 'Futura';
-	text-decoration: none !important;
-}
+@font-face{font-weight: normal;font-style: normal;font-family: 'codropsicons';src:url('../fonts/codropsicons/codropsicons.eot');src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),	url('../fonts/codropsicons/codropsicons.woff') format('woff'),	url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),	url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');}
+@font-face{font-family: 'Futura';src: url('FutuBd.ttf')  format('truetype')}
+@font-face{font-family: 'Univers';src: url('Univers.ttf')  format('truetype')}
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
@@ -40,9 +10,9 @@
 body {
 	background: #f1f1f1;
 	color: #333;
-	font-size: 1em;
+	font-size: 14px;
 	font-weight: 400;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Futura', Arial, sans-serif;
 }
 
 a {
@@ -71,17 +41,18 @@ a:hover, a:focus {
 	text-align: center;
 	z-index: 1000;
 	font-size: 1.5em;
-    background-color: rgba(3,3,3,0.7);
+	background-color: rgba(3,3,3,0.6);
+
 }
 
 .codrops-header h1 {
 	position: absolute;
-	font-weight: 700;
-	font-size: 4.5em;
-	line-height: 1.2;
+	/*font-weight: 700;*/
+	font-size: 2.4em;
+	line-height: 1.5em;
 	color: #fff;
 	z-index: 1000;
-	padding: 0;
+	padding-top: 10%;
 	margin: 0;
 	left: 0;
 	text-transform: uppercase;
@@ -96,8 +67,6 @@ a:hover, a:focus {
 	display: block;
 	font-size: 80%;
 }
-
-
 
 .codrops-header h1 span::before,
 .codrops-header h1 span::after {
@@ -122,11 +91,11 @@ a:hover, a:focus {
 	color:white;
 	font-size:0.5em;
 	margin-top: 20px;
-	padding: 20px;
+	padding: 25px;
 }
 .codrops-header .start-button:hover
 {
-	border: 2px solid goldenrod;
+	border: 1px solid goldenrod;
 	background-color: #eff62b;
 	
 }
@@ -181,8 +150,6 @@ a:hover, a:focus {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-
-
 
 .codrops-icon-drop:before {
 	content: "\e001";
@@ -260,43 +227,7 @@ ul.ref li {
 	text-align: left;
 }
 
-@media screen and (max-width: 60em) {
-	.codrops-header h1 {
-		font-size: 7em;
-	}
-}
-
-@media screen and (max-width: 30em) {
-	/*.wrap {
-		height: 100vh !important;
-		background: #3d4955;
-	}
-	.codrops-header {
-		top: 100%;
-	}
-	.codrops-header h1 {
-		padding-top: 5em;
-	}
-	.codrops-header h1 i {
-		font-size: 42%;
-		max-width: 90%;
-	}*/
-	.codrops-icon {
-		font-size: 1.5em;
-	}
-	.codrops-icon span {
-		display: none;
-	}
-}
-
-
-
-
-
-
-
 /***************************************************************/
-
 
 .main-section img
 {
@@ -317,9 +248,8 @@ ul.ref li {
 
 .main-section h4
 {
-   
-    color: #888888;
-    font-family: 'Univers', sans-serif;
+	color: #333;
+    font-family: 'Futura', sans-serif;
     font-weight: 400;
     text-align: center;
     margin: 0 0 60px 0;        
@@ -335,25 +265,19 @@ ul.ref li {
     font-weight: 400;
 }
 
-
-
-
-
-
-
 /* Navigation
 ---------------------------------*/
 .main-nav-outer{
 	padding:0px;
-	border-bottom: 1px solid #EDE211;
-    box-shadow: 0 4px 5px -3px goldenrod;
+	/*border-bottom: 1px solid #EDE211;
+    box-shadow: 0 4px 5px -3px #333;*/
 	position:relative;
 	background:#fff;
-    background-color: rgb(3, 3, 3);
+    background-color: rgba(25, 24, 0, 0.8);
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+	margin:0px;
 	padding:0;
 	list-style:none;
     
@@ -367,37 +291,38 @@ ul.ref li {
 	color:white;
     font-weight: bold;
 	text-transform:uppercase;
-/*	font-family: 'Montserrat', sans-serif;*/
-    font-size: 1.5em;
+	font-family: 'Futura', sans-serif;
+    font-size: 0.9em;
 	text-decoration: none;
-	line-height:20px;
-	margin:17px 32px;
+	line-height:15px;
+	margin:10px 0px;
+	padding: 20px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
-    
 }
 
 .main-nav li a:hover{ 
-	    text-decoration: none;
-    color: #EDE211;
+	text-decoration: none;
+	color: #333;
+	background-color:#EDE211;
 }
 
 .small-logo{ 
 	padding:0 32px;
+	
 }
 .small-logo a{ 
-/*    background-color: white;*/
-    padding: 5px;
+    /*padding: 5px;*/
     border-radius: 50px;
 }
-
+.small-logo img
+{ 
+	height: 2.5em;
+}
 .main-section{
 	padding:90px 0 110px;
 }
-
-
-
 
 /*Menu button responsive*/
 .res-nav_click {
@@ -416,12 +341,11 @@ ul.ref li {
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-
-
 /* Services
 ---------------------------------*/
 
 .service-list{
+	font-family: arial;
 	padding:0 0 0 0;
 	font-size:14px;
 	margin-bottom:40px;
@@ -445,8 +369,6 @@ ul.ref li {
 	background:#fafafa;
 }
 
-
-
 /* Featured Work
 ---------------------------------*/
 .featured-work{
@@ -456,6 +378,7 @@ ul.ref li {
 	text-align:left;
 }
 .featured-box{
+	font-family: Arial, Helvetica, sans-serif;
 	padding:0 0 0 0;
 	margin-bottom:25px;
 	font-size:14px;
@@ -464,10 +387,15 @@ ul.ref li {
 	margin-bottom:5px;
 }
 .featured-box p{
-	line-height:22px;
+	line-height:25px;
+	
 }
 .featured-work p.padding-b{
 	padding-bottom:35px;
+}
+.featured-work p
+{
+	text-align: justify;
 }
 .featured-box-col1{
 	width:60px;
@@ -514,13 +442,6 @@ ul.ref li {
 	color: #111;
 }
 
-
-
-
-
-
-
-
 /* Contact
 ---------------------------------*/
 .main-section.contact{
@@ -528,7 +449,7 @@ ul.ref li {
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	/*background:url(../img/bg-map.png) left 190px no-repeat;*/
 }
 .contact-info-box{
 	font-size:15px;
@@ -640,7 +561,6 @@ ul.ref li {
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
-
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -650,9 +570,6 @@ ul.ref li {
 	background: #111;
 	color: #fff;
 }
-
-
-
 
 /* Talk Business
 ---------------------------------*/
@@ -671,10 +588,6 @@ ul.ref li {
 	font-size:42px;
 	color:#fff;
 }
-
-
-
-
 
 /* Footer
 ---------------------------------*/
@@ -710,4 +623,70 @@ ul.ref li {
 .copyright a:hover {
 	color: #fff;
     text-decoration: underline;
+}
+
+/*Custom*/
+.of-color
+{
+	color:#EDE211 !important;
+}
+
+.of-font
+{
+	font-family: 'Futura';
+	text-decoration: none !important;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.codrops-header h1 {
+		font-size: 5em;
+		padding-top: 15%;
+	}
+
+	.main-nav-outer
+	{
+		background-color: black !important;
+	}
+	.wrap 
+	{
+		top: 0px !important;
+	}
+}
+
+
+@media screen and (max-width: 30em) {
+	/*
+	.codrops-header {
+		top: 100%;
+	}
+	.codrops-header h1 {
+		padding-top: 5em;
+	}
+	.codrops-header h1 i {
+		font-size: 42%;
+		max-width: 90%;
+	}*/
+	.codrops-icon {
+		font-size: 1.5em;
+	}
+	.codrops-icon span {
+		display: none;
+	}
+	.codrops-header h1 {
+		padding-top: 15%;
+		font-size: em;
+	}
+
+	.wrap 
+	{
+		top: 0px !important;
+	}
+
+	.main-nav-outer
+	{
+		background-color: black !important;
+	}
+	
 }
